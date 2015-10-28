@@ -1,0 +1,125 @@
+/**
+ * @author wisard17
+ * @copyright 2015
+ */
+
+.wsd-header, #wsd-header-bg, .wsd-layout-cell, .wsd-layout-wrapper, .wsd-footer, .wsd-nav, #wsd-hmenu-bg, .wsd-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.wsd-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.wsd-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#wsd-header-bg 
+{
+   display: none;
+}
+
+.wsd-hmenu>li, .wsd-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.wsd-hmenu, ul.wsd-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#wsd-hmenu-bg 
+{
+   display: none;
+}
+
+ul.wsd-hmenu>li:first-child {
+   padding-right:1px;
+}
+
+ul.wsd-hmenu ul{
+   background-color: #4386B2 !important;
+}
+
+.wsd-content-layout, .wsd-content-layout-row, .wsd-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.wsd-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.wsd-vmenu, ul.wsd-vmenu ul, ul.wsd-vmenu li{
+   zoom: 1;
+}
+
+ul.wsd-vmenu ul 
+{
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.wsd-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.wsd-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.wsd-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.wsd-search
+{
+   zoom: 1;
+}
+.wsd-postheadericons span{
+   zoom: 1;
+}
+.wsd-postcontent {
+   height: 1%;
+}
+
+.wsd-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.wsd-sidebar2 
+{
+   width: auto;
+   float:none;
+}
+
